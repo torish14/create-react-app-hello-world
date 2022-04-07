@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// render メソッド
+// 1. 第 1 引数に渡された React コンポーネントを DOM にレンダリングす
+// 2. 第 2 引数で指定された HTML 要素に上書きする
 ReactDOM.render(
   <React.StrictMode>
     <App />
