@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // 1. 第 1 引数に渡された React コンポーネントを DOM にレンダリングす
 // 2. 第 2 引数で指定された HTML 要素に上書きする
 ReactDOM.render(
+  // 厳格モードを有効にする
   <React.StrictMode>
     <App />
   </React.StrictMode>,
